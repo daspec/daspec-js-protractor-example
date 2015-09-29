@@ -6,4 +6,4 @@
 > but the line below is normal text so it will be executed
 
 Navigate to "http://localhost:9000/#/"
-Navigate to "http://google.com"
+Navigate to "http://localhost:9000/#/about"
