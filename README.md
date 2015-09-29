@@ -9,4 +9,4 @@ Run `grunt` for building and `grunt serve` for preview.
 
 ## Testing
 
-Running `grunt test` will run the unit tests with karma.
+Running `node ./node_modules/protractor/lib/cli.js DaSpec/config.js` will run the UI tests with protractor.
