@@ -5,6 +5,10 @@ version 0.12.1.
 
 ## Build & development
 
+Install `compass`
+
+    gem install compass
+
 Run `grunt` for building and `grunt serve` for preview.
 
 ## Testing
