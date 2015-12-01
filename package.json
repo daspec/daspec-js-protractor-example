@@ -1,5 +1,5 @@
 {
-  "name": "daspecexperiment",
+  "name": "daspec-protractor",
   "private": true,
   "devDependencies": {
     "daspec": "^1.0.1",
@@ -38,6 +38,10 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "daspec"
+    "test": "protractor DaSpec/config.js",
+    "postinstall": "webdriver-manager update"
+  },
+  "dependencies": {
+    "daspec-protractor-adapter": "^1.0.0"
   }
 }
