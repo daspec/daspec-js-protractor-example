@@ -1,6 +1,6 @@
 #Friends List
 The Friends List shows you all of the people on the site that you have asked to be friends with.
-![Friends list](/Projects/daspec-js-protractor-example1/DaSpec/images/friendsList.png)
+![Friends list](https://github.com/daspec/daspec-js-protractor-example/blob/master/DaSpec/images/friendsList.png?raw=true)
 
 ##Navigating to the Home page
 On the home page of the site 
@@ -17,4 +17,5 @@ The list of contact options should be
 | GOOGLE+ |
 | HANGOUT |
 
-![contact options](/Projects/daspec-js-protractor-example1/DaSpec/images/contactOptions.png)
+![contact options](https://github.com/daspec/daspec-js-protractor-example/blob/master/DaSpec/images/contactOptions.png?raw=true)
+
