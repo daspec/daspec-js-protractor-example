@@ -13,35 +13,6 @@ When you fire up the app (see the readme.md file for how to get installed and ru
 
 as you can see the site is responsive and works nicely on a mobile or tablet.
 
-##Running e2e Jasmine Tests
-There are e2e tests written with Jasmine that you can run by following these steps:
-
- 1. Start your local HTTP Webserver: `live-server` or `http-server`.
-
-```console
-cd ./app; live-server;
-```
-
-> Note: since `live-server` is working on port 8080, we configure the `protractor.conf.js` to use
-`baseUrl: 'http://localhost:8080'`
-
- 2. In another tab, start a Webdriver instance:
- 
-```console
-./node_modules/protractor/bin/webdriver-manager start
-```
-
->This will start up a Selenium Server and will output a bunch of info logs. Your Protractor test
-will send requests to this server to control a local browser. You can see information about the
-status of the server at `http://localhost:4444/wd/hub`. If you see errors, verify path in
-`e2e-tests/protractor.conf.js` for `chromeDriver` and `seleniumServerJar` to your local file system.
-
- 3. Run your e2e tests using the `test` script defined in `package.json`:
- 
-```console
-npm test
-```
-
 ##Running the DaSpec specifications
 [DaSpec](http://daspec.com/ "DaSpec -- Awesome executable specifications in Markdown") enables you to write your specifications
 using markdown which gives you great flexibility to be descriptive and even add a bit of sales pizazz.  

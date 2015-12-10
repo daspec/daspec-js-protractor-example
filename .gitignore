@@ -3,3 +3,5 @@ node_modules
 .sass-cache
 .idea
 daspec-output
+app/bower_components
+npm-debug.log
